@@ -3,8 +3,8 @@ from distutils.core import setup
 long_description = open('README.rst').read()
 
 setup(
-    name='django-athumb',
-    version='2.4.1',
+    name='straus-athumb',
+    version='2.4.2',
     packages=['athumb', 'athumb.backends', 'athumb.management',
               'athumb.pial', 'athumb.pial.engines',
               'athumb.management.commands', 'athumb.templatetags',
@@ -14,7 +14,7 @@ setup(
     author='Gregory Taylor',
     author_email='gtaylor@gc-taylor.com',
     license='BSD License',
-    url='http://github.com/gtaylor/django-athumb',
+    url='http://github.com/unloder/django-athumb',
     platforms=["any"],
     requires=['django', 'boto', 'pillow'],
     classifiers=[
